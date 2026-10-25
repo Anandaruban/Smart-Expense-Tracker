@@ -23,10 +23,7 @@ public class Expense {
         this.date = date;
     }
 
-    public String toString() {
-        return category + " " + amount + " " + notes + " " + date;
-    }
-
+//    getters
     public String getCategory() {
         return category;
     }
@@ -41,5 +38,9 @@ public class Expense {
 
     public LocalDate getDate() {
         return date;
+    }
+
+    public String toString() {
+        return category + " " + amount + " " + notes + " " + date;
     }
 }
